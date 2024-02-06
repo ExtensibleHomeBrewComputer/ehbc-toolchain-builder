@@ -1,0 +1,6 @@
+[submodule "ehbc-mlibc"]
+	path = ehbc-mlibc
+	url = https://github.com/ExtensibleHomeBrewComputer/ehbc-mlibc
+[submodule "ehbc-gcc"]
+	path = ehbc-gcc
+	url = https://github.com/ExtensibleHomeBrewComputer/ehbc-gcc
