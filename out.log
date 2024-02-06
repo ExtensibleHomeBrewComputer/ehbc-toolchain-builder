@@ -1,0 +1,877 @@
+Running script /Users/gwonminsu/Documents/LocalProjects/ehbc-toolchain-builder/scripts/binutils-compile.sh...
+make[1]: Nothing to be done for `all-target'.
+make[2]: Nothing to be done for `all'.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-am
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-am
+true  DO=all multi-do # /Applications/Xcode.app/Contents/Developer/usr/bin/make
+make[2]: Nothing to be done for `all'.
+true "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CFLAGS=-g -O2    " "CXXFLAGS=-g -O2    " "CFLAGS_FOR_BUILD=-g -O2" "CFLAGS_FOR_TARGET=-g -O2" "INSTALL=/opt/homebrew/bin/ginstall -c" "INSTALL_DATA=/opt/homebrew/bin/ginstall -c -m 644" "INSTALL_PROGRAM=/opt/homebrew/bin/ginstall -c" "INSTALL_SCRIPT=/opt/homebrew/bin/ginstall -c" "LDFLAGS=" "LIBCFLAGS=-g -O2  " "LIBCFLAGS_FOR_TARGET=-g -O2" "MAKE=/Applications/Xcode.app/Contents/Developer/usr/bin/make" "MAKEINFO=makeinfo --split-size=5000000 --split-size=5000000 " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/sh" "EXPECT=expect" "RUNTEST=runtest" "RUNTESTFLAGS=" "exec_prefix=/Users/gwonminsu/.local" "infodir=/Users/gwonminsu/.local/share/info" "libdir=/Users/gwonminsu/.local/lib" "prefix=/Users/gwonminsu/.local" "tooldir=/Users/gwonminsu/.local/m68k-unknown-elf" "AR=ar " "AS=as" "CC=gcc" "CXX=g++" "LD=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "LIBCFLAGS=-g -O2  " "NM=nm" "PICFLAG=" "RANLIB=ranlib " "DESTDIR=" DO=all multi-do # /Applications/Xcode.app/Contents/Developer/usr/bin/make
+make[3]: Nothing to be done for `all-am'.
+make[3]: Nothing to be done for `all'.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+Making all in readline
+make[3]: Nothing to be done for `all'.
+Making all in import
+make[3]: Nothing to be done for `all-am'.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+Making info in po
+make[3]: Nothing to be done for `info'.
+make[3]: Nothing to be done for `info-am'.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+make[6]: Nothing to be done for `all-am'.
+make[4]: Nothing to be done for `all-am'.
+Making all in po
+make[4]: Nothing to be done for `all'.
+make[4]: Nothing to be done for `all-am'.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+Making all in .
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+make[4]: Nothing to be done for `all-am'.
+Making all in po
+make[4]: Nothing to be done for `all'.
+make[4]: Nothing to be done for `all-am'.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-am
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+make[3]: Nothing to be done for `all-am'.
+Making all in po
+make[4]: Nothing to be done for `all'.
+  GEN      doc/asconfig.texi
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+Making info in po
+make[3]: Nothing to be done for `info'.
+Making all in po
+make[4]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `info-am'.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+make[4]: Nothing to be done for `all-am'.
+make[4]: Nothing to be done for `all-am'.
+Making all in po
+make[4]: Nothing to be done for `all'.
+make[4]: Nothing to be done for `all-am'.
+  CXX    frame.o
+  CXX    frame-unwind.o
+  CXX    gdb_bfd.o
+  CXX    gdbarch-selftests.o
+  CXX    findvar.o
+  CXX    gmp-utils.o
+  CXX    gdbtypes.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  all-recursive
+Making all in po
+make[4]: Nothing to be done for `all'.
+make[4]: Nothing to be done for `all-am'.
+  CXX    gnu-v2-abi.o
+  CXX    gnu-v3-abi.o
+  CXX    go-lang.o
+  YACC   go-exp.c
+  CXX    go-typeprint.o
+  CXX    go-valprint.o
+  CXX    guile/guile.o
+  CXX    guile/scm-arch.o
+  CXX    guile/scm-auto-load.o
+  CXX    guile/scm-block.o
+  CXX    guile/scm-breakpoint.o
+  CXX    guile/scm-cmd.o
+  CXX    guile/scm-disasm.o
+  CXX    guile/scm-exception.o
+  CXX    guile/scm-frame.o
+  CXX    guile/scm-gsmob.o
+  CXX    guile/scm-iterator.o
+  CXX    guile/scm-lazy-string.o
+  CXX    guile/scm-math.o
+  CXX    guile/scm-objfile.o
+  CXX    guile/scm-param.o
+  CXX    guile/scm-ports.o
+  CXX    guile/scm-pretty-print.o
+  CXX    guile/scm-progspace.o
+  CXX    guile/scm-safe-call.o
+  CXX    guile/scm-string.o
+  CXX    guile/scm-symbol.o
+  CXX    guile/scm-symtab.o
+  CXX    guile/scm-type.o
+  CXX    guile/scm-utils.o
+  CXX    inf-child.o
+  CXX    guile/scm-value.o
+  CXX    inf-loop.o
+  CXX    infcall.o
+  CXX    infcmd.o
+  CXX    inferior.o
+  CXX    inflow.o
+  CXX    inline-frame.o
+  CXX    infrun.o
+  CXX    interps.o
+  CXX    jit.o
+  CXX    language.o
+  CXX    linespec.o
+  CXX    location.o
+  YACC   m2-exp.c
+  CXX    m2-lang.o
+  CXX    m2-typeprint.o
+  CXX    m2-valprint.o
+  CXX    m68k-tdep.o
+  CXX    macrocmd.o
+  CXX    macroexp.o
+  CXX    macroscope.o
+  CXX    macrotab.o
+  CXX    main.o
+  CXX    maint-test-options.o
+  CXX    maint-test-settings.o
+  CXX    maint.o
+  CXX    mdebugread.o
+  CXX    mem-break.o
+  CXX    memattr.o
+  CXX    memory-map.o
+  CXX    memrange.o
+  CXX    memtag.o
+  CXX    mi/mi-cmd-break.o
+  CXX    mi/mi-cmd-catch.o
+  CXX    mi/mi-cmd-disas.o
+  CXX    mi/mi-cmd-env.o
+  CXX    mi/mi-cmd-file.o
+  CXX    mi/mi-cmd-info.o
+  CXX    mi/mi-cmd-stack.o
+  CXX    mi/mi-cmd-target.o
+  CXX    mi/mi-cmd-var.o
+  CXX    mi/mi-cmds.o
+  CXX    mi/mi-common.o
+  CXX    mi/mi-console.o
+  CXX    mi/mi-getopt.o
+  CXX    mi/mi-interp.o
+  CXX    mi/mi-main.o
+  CXX    mi/mi-out.o
+  CXX    mi/mi-parse.o
+  CXX    mi/mi-symbol-cmds.o
+  CXX    minidebug.o
+  CXX    mipsread.o
+  CXX    minsyms.o
+  CXX    namespace.o
+  CXX    objc-lang.o
+  CXX    objfiles.o
+  CXX    observable.o
+  CXX    opencl-lang.o
+  CXX    osabi.o
+  CXX    osdata.o
+  YACC   p-exp.c
+  CXX    p-lang.o
+  CXX    p-typeprint.o
+  CXX    p-valprint.o
+  CXX    parse.o
+  CXX    posix-hdep.o
+  CXX    printcmd.o
+  CXX    probe.o
+  CXX    process-stratum-target.o
+  CXX    producer.o
+  CXX    progspace-and-thread.o
+  CXX    progspace.o
+  CXX    prologue-value.o
+  CXX    psymtab.o
+  CXX    python/py-arch.o
+  CXX    python/py-auto-load.o
+  CXX    python/py-block.o
+  CXX    python/py-bpevent.o
+  CXX    python/py-breakpoint.o
+  CXX    python/py-cmd.o
+  CXX    python/py-connection.o
+  CXX    python/py-continueevent.o
+  CXX    python/py-dap.o
+  CXX    python/py-disasm.o
+  CXX    python/py-event.o
+  CXX    python/py-evtregistry.o
+  CXX    python/py-evts.o
+  CXX    python/py-exitedevent.o
+  CXX    python/py-frame.o
+  CXX    python/py-finishbreakpoint.o
+  CXX    python/py-framefilter.o
+  CXX    python/py-function.o
+  CXX    python/py-gdb-readline.o
+  CXX    python/py-inferior.o
+  CXX    python/py-infevents.o
+  CXX    python/py-infthread.o
+  CXX    python/py-instruction.o
+  CXX    python/py-lazy-string.o
+  CXX    python/py-linetable.o
+  CXX    python/py-membuf.o
+  CXX    python/py-mi.o
+  CXX    python/py-micmd.o
+  CXX    python/py-newobjfileevent.o
+  CXX    python/py-objfile.o
+  CXX    python/py-param.o
+  CXX    python/py-prettyprint.o
+  CXX    python/py-progspace.o
+  CXX    python/py-record-btrace.o
+  CXX    python/py-record-full.o
+  CXX    python/py-record.o
+  CXX    python/py-registers.o
+  CXX    python/py-signalevent.o
+  CXX    python/py-stopevent.o
+  CXX    python/py-symbol.o
+  CXX    python/py-symtab.o
+  CXX    python/py-threadevent.o
+  CXX    python/py-tui.o
+  CXX    python/py-type.o
+  CXX    python/py-unwind.o
+  CXX    python/py-utils.o
+  CXX    python/py-value.o
+  CXX    python/py-varobj.o
+  CXX    python/py-xmethods.o
+  CXX    python/python.o
+  CXX    record-btrace.o
+  CXX    record-full.o
+  CXX    record.o
+  CXX    regcache-dump.o
+  CXX    regcache.o
+  CXX    reggroups.o
+  CXX    remote-fileio.o
+  CXX    remote-notif.o
+  CXX    remote.o
+  CXX    reverse.o
+  CXX    run-on-main-thread.o
+  CXX    rust-lang.o
+  CXX    rust-parse.o
+  CXX    selftest-arch.o
+  CXX    sentinel-frame.o
+  CXX    ser-base.o
+  CXX    ser-event.o
+  CXX    ser-pipe.o
+  CXX    ser-tcp.o
+  CXX    ser-unix.o
+  CXX    ser-uds.o
+  CXX    serial.o
+  CXX    skip.o
+  CXX    solib-target.o
+  CXX    source-cache.o
+  CXX    solib.o
+  CXX    source.o
+  CXX    split-name.o
+  CXX    stabsread.o
+  CXX    stack.o
+  CXX    stap-probe.o
+  CXX    std-regs.o
+  CXX    symfile-debug.o
+  CXX    symfile.o
+  CXX    symmisc.o
+  CXX    symtab.o
+  CXX    target-connection.o
+  CXX    target-dcache.o
+  CXX    target-descriptions.o
+  CXX    target-float.o
+  CXX    target-memory.o
+  CXX    target.o
+  CXX    target/target.o
+  CXX    target/waitstatus.o
+  CXX    test-target.o
+  CXX    thread-iter.o
+  CXX    thread.o
+  CXX    tid-parse.o
+  CXX    top.o
+  CXX    tracectf.o
+  CXX    tracefile-tfile.o
+  CXX    tracefile.o
+  CXX    tracepoint.o
+  CXX    trad-frame.o
+  CXX    tramp-frame.o
+  CXX    tui/tui-command.o
+  CXX    tui/tui-data.o
+  CXX    tui/tui-disasm.o
+  CXX    tui/tui-hooks.o
+  CXX    tui/tui-file.o
+  CXX    tui/tui-interp.o
+  CXX    tui/tui-io.o
+  CXX    tui/tui-layout.o
+  CXX    tui/tui-location.o
+  CXX    tui/tui-out.o
+  CXX    tui/tui-regs.o
+  CXX    tui/tui-source.o
+  CXX    tui/tui-status.o
+  CXX    tui/tui-win.o
+  CXX    tui/tui-wingeneral.o
+  CXX    tui/tui-winsource.o
+  CXX    tui/tui.o
+  CXX    type-stack.o
+  CXX    typeprint.o
+  CXX    ui-file.o
+  CXX    ui-out.o
+  CXX    ui-style.o
+  CXX    ui.o
+  CXX    unittests/array-view-selftests.o
+  CXX    unittests/child-path-selftests.o
+  CXX    unittests/cli-utils-selftests.o
+  CXX    unittests/command-def-selftests.o
+  CXX    unittests/common-utils-selftests.o
+  CXX    unittests/copy_bitwise-selftests.o
+  CXX    unittests/enum-flags-selftests.o
+  CXX    unittests/environ-selftests.o
+  CXX    unittests/filtered_iterator-selftests.o
+  CXX    unittests/format_pieces-selftests.o
+  CXX    unittests/frame_info_ptr-selftests.o
+  CXX    unittests/function-view-selftests.o
+  CXX    unittests/gdb_tilde_expand-selftests.o
+  CXX    unittests/gmp-utils-selftests.o
+  CXX    unittests/intrusive_list-selftests.o
+  CXX    unittests/lookup_name_info-selftests.o
+  CXX    unittests/main-thread-selftests.o
+  CXX    unittests/memory-map-selftests.o
+  CXX    unittests/memrange-selftests.o
+  CXX    unittests/mkdir-recursive-selftests.o
+  CXX    unittests/observable-selftests.o
+  CXX    unittests/offset-type-selftests.o
+  CXX    unittests/packed-selftests.o
+  CXX    unittests/parallel-for-selftests.o
+  CXX    unittests/parse-connection-spec-selftests.o
+  CXX    unittests/path-join-selftests.o
+  CXX    unittests/ptid-selftests.o
+  CXX    unittests/rsp-low-selftests.o
+  CXX    unittests/scoped_fd-selftests.o
+  CXX    unittests/scoped_ignore_signal-selftests.o
+  CXX    unittests/scoped_mmap-selftests.o
+  CXX    unittests/scoped_restore-selftests.o
+  CXX    unittests/search-memory-selftests.o
+  CXX    unittests/tracepoint-selftests.o
+  CXX    unittests/style-selftests.o
+  CXX    unittests/tui-selftests.o
+  CXX    unittests/ui-file-selftests.o
+  CXX    unittests/unique_xmalloc_ptr_char.o
+  CXX    unittests/unpack-selftests.o
+  CXX    unittests/utils-selftests.o
+  CXX    unittests/vec-utils-selftests.o
+  CXX    unittests/xml-utils-selftests.o
+  CXX    user-regs.o
+  CXX    utils.o
+  CXX    valarith.o
+  CXX    valops.o
+  CXX    valprint.o
+  CXX    value.o
+  CXX    varobj.o
+  GEN    stamp-version
+  GEN    xml-builtin.c
+  CXX    xml-support.o
+  CXX    xml-syscall.o
+  CXX    xml-tdesc.o
+  GEN    init.c
+  CXX    go-exp.o
+  CXX    m2-exp.o
+  CXX    p-exp.o
+  CXX    version.o
+  CXX    xml-builtin.o
+  CXX    init.o
+  CXXLD  gdb
+(test "ln -s" = "ln -s" && \
+	  ln -s ../../../../binutils-gdb/gdb/doc/all-cfg.texi gdb-cfg.texi) || \
+	ln ../../../../binutils-gdb/gdb/doc/all-cfg.texi gdb-cfg.texi || \
+	cp ../../../../binutils-gdb/gdb/doc/all-cfg.texi gdb-cfg.texi
+date=`sed -n -e 's/^.* BFD_VERSION_DATE \(.*\)$/\1/p' ../../../../binutils-gdb/gdb/doc/../../bfd/version.h`; \
+	sed -e "s/DATE/$date/" < ../../../../binutils-gdb/gdb/doc/../version.in > version.subst
+echo "@set GDBVN `sed q version.subst`" > ./GDBvn.new
+if [ -n "(GDB) " ]; then \
+	  echo "@set VERSION_PACKAGE (GDB) " >> ./GDBvn.new; \
+	fi
+echo "@set BUGURL @uref{https://www.gnu.org/software/gdb/bugs/}" >> ./GDBvn.new
+if [ "@uref{https://www.gnu.org/software/gdb/bugs/}" = "@uref{http://www.gnu.org/software/gdb/bugs/}" ]; then \
+	  echo "@set BUGURL_DEFAULT" >> ./GDBvn.new; \
+	fi
+if test -z "-I ../../../../binutils-gdb/gdb/doc/../../readline/readline/doc"; then \
+	  echo "@set SYSTEM_READLINE" >> ./GDBvn.new; \
+	fi
+if [ -n "" ]; then \
+	  escaped_system_gdbinit=`echo  | sed 's/@/@@/g'`; \
+	  echo "@set SYSTEM_GDBINIT $escaped_system_gdbinit" >> ./GDBvn.new; \
+	fi
+if [ -n "" ]; then \
+	  escaped_system_gdbinit_dir=`echo  | sed 's/@/@@/g'`; \
+	  echo "@set SYSTEM_GDBINIT_DIR $escaped_system_gdbinit_dir" >> ./GDBvn.new; \
+	fi
+mv GDBvn.new GDBvn.texi
+makeinfo --split-size=5000000 --split-size=5000000  -DHAVE_MAKEINFO_CLICK -I ../../../../binutils-gdb/gdb/doc/../../readline/readline/doc -I ../../../../binutils-gdb/gdb/doc/../mi -I ../../../../binutils-gdb/gdb/doc \
+		-o gdb.info ../../../../binutils-gdb/gdb/doc/gdb.texinfo
+makeinfo --split-size=5000000 --split-size=5000000  -DHAVE_MAKEINFO_CLICK -I ../../../../binutils-gdb/gdb/doc -o stabs.info ../../../../binutils-gdb/gdb/doc/stabs.texinfo
+makeinfo --split-size=5000000 --split-size=5000000  -DHAVE_MAKEINFO_CLICK -I ../../../../binutils-gdb/gdb/doc -o annotate.info ../../../../binutils-gdb/gdb/doc/annotate.texinfo
+rm -rf ./syscalls
+rm -rf ./python
+rm -rf ./guile
+mkdir ./syscalls
+files='gdb/__init__.py gdb/disassembler.py gdb/FrameDecorator.py gdb/FrameIterator.py gdb/frames.py gdb/missing_debug.py gdb/printing.py gdb/prompt.py gdb/styling.py gdb/types.py gdb/unwinder.py gdb/xmethod.py gdb/command/__init__.py gdb/command/explore.py gdb/command/frame_filters.py gdb/command/missing_debug.py gdb/command/pretty_printers.py gdb/command/prompt.py gdb/command/type_printers.py gdb/command/unwinders.py gdb/command/xmethods.py gdb/dap/breakpoint.py gdb/dap/bt.py gdb/dap/disassemble.py gdb/dap/evaluate.py gdb/dap/events.py gdb/dap/frames.py gdb/dap/__init__.py gdb/dap/io.py gdb/dap/launch.py gdb/dap/locations.py gdb/dap/memory.py gdb/dap/modules.py gdb/dap/next.py gdb/dap/pause.py gdb/dap/scopes.py gdb/dap/server.py gdb/dap/sources.py gdb/dap/startup.py gdb/dap/state.py gdb/dap/threads.py gdb/dap/typecheck.py gdb/dap/varref.py gdb/function/__init__.py gdb/function/as_string.py gdb/function/caller_is.py gdb/function/strfns.py gdb/printer/__init__.py gdb/printer/bound_registers.py' ; \
+	if test "x$files" != x ; then \
+	  for file in $files ; do \
+	    dir=`echo "$file" | sed 's,/[^/]*$,,'` ; \
+	    /bin/sh ../../../../binutils-gdb/gdb/data-directory/../../mkinstalldirs ./python/$dir ; \
+	    /opt/homebrew/bin/ginstall -c -m 644 ../../../../binutils-gdb/gdb/data-directory/../python/lib/$file ./python/$dir ; \
+	  done ; \
+	fi
+rm -rf ./system-gdbinit
+files='gdb-syscalls.dtd freebsd.xml netbsd.xml aarch64-linux.xml amd64-linux.xml arm-linux.xml i386-linux.xml mips-n32-linux.xml mips-n64-linux.xml mips-o32-linux.xml ppc-linux.xml ppc64-linux.xml s390-linux.xml s390x-linux.xml sparc-linux.xml sparc64-linux.xml' ; \
+	for file in $files ; do \
+	  f=../../../../binutils-gdb/gdb/data-directory/../syscalls/$file ; \
+	  if test -f $f ; then \
+	    /opt/homebrew/bin/ginstall -c -m 644 $f ./syscalls ; \
+	  fi ; \
+	done
+if test "x./gdb.scm gdb/boot.scm gdb/experimental.scm gdb/init.scm gdb/iterator.scm gdb/printing.scm gdb/support.scm gdb/types.scm ./gdb.go gdb/experimental.go gdb/iterator.go gdb/printing.go gdb/support.go gdb/types.go" != x ; then \
+	  files='./gdb.scm gdb/boot.scm gdb/experimental.scm gdb/init.scm gdb/iterator.scm gdb/printing.scm gdb/support.scm gdb/types.scm' ; \
+	  for file in $files ; do \
+	    dir=`echo "$file" | sed 's,/[^/]*$,,'` ; \
+	    /bin/sh ../../../../binutils-gdb/gdb/data-directory/../../mkinstalldirs ./guile/$dir ; \
+	    /opt/homebrew/bin/ginstall -c -m 644 ../../../../binutils-gdb/gdb/data-directory/../guile/lib/$file ./guile/$dir ; \
+	  done ; \
+	  files='./gdb.go gdb/experimental.go gdb/iterator.go gdb/printing.go gdb/support.go gdb/types.go' ; \
+	  cd ./guile ; \
+	  for go in $files ; do \
+	    source="`echo $go | sed 's/\.go$/.scm/'`" ; \
+	    echo /opt/homebrew/Cellar/guile/3.0.9/bin/guild compile  -Warity-mismatch -Wformat -Wunused-toplevel -L . -o "$go" "$source" ; \
+	    /opt/homebrew/Cellar/guile/3.0.9/bin/guild compile  -Warity-mismatch -Wformat -Wunused-toplevel -L . -o "$go" "$source" || exit 1 ; \
+	  done ; \
+	fi
+mkdir ./system-gdbinit
+files='elinos.py wrs-linux.py' ; \
+	for file in $files ; do \
+	  f=../../../../binutils-gdb/gdb/data-directory/../system-gdbinit/$file ; \
+	  if test -f $f ; then \
+	    /opt/homebrew/bin/ginstall -c -m 644 $f ./system-gdbinit ; \
+	  fi ; \
+	done
+mkdir ./python
+touch stamp-system-gdbinit
+mkdir ./guile
+mkdir ./python/gdb
+mkdir ./guile/gdb
+touch stamp-syscalls
+/opt/homebrew/Cellar/guile/3.0.9/bin/guild compile -Warity-mismatch -Wformat -Wunused-toplevel -L . -o ./gdb.go ./gdb.scm
+mkdir ./python/gdb/command
+mkdir ./python/gdb/dap
+wrote `./gdb.go'
+/opt/homebrew/Cellar/guile/3.0.9/bin/guild compile -Warity-mismatch -Wformat -Wunused-toplevel -L . -o gdb/experimental.go gdb/experimental.scm
+mkdir ./python/gdb/function
+mkdir ./python/gdb/printer
+touch stamp-python
+wrote `gdb/experimental.go'
+/opt/homebrew/Cellar/guile/3.0.9/bin/guild compile -Warity-mismatch -Wformat -Wunused-toplevel -L . -o gdb/iterator.go gdb/iterator.scm
+wrote `gdb/iterator.go'
+/opt/homebrew/Cellar/guile/3.0.9/bin/guild compile -Warity-mismatch -Wformat -Wunused-toplevel -L . -o gdb/printing.go gdb/printing.scm
+wrote `gdb/printing.go'
+/opt/homebrew/Cellar/guile/3.0.9/bin/guild compile -Warity-mismatch -Wformat -Wunused-toplevel -L . -o gdb/support.go gdb/support.scm
+wrote `gdb/support.go'
+/opt/homebrew/Cellar/guile/3.0.9/bin/guild compile -Warity-mismatch -Wformat -Wunused-toplevel -L . -o gdb/types.go gdb/types.scm
+wrote `gdb/types.go'
+touch stamp-guile
+Running script /Users/gwonminsu/Documents/LocalProjects/ehbc-toolchain-builder/scripts/binutils-install.sh...
+/bin/sh ../../binutils-gdb/mkinstalldirs /Users/gwonminsu/.local /Users/gwonminsu/.local
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/info'
+ /opt/homebrew/bin/ginstall -c -m 644 ./doc/sframe-spec.info '/Users/gwonminsu/.local/share/info'
+ install-info --info-dir='/Users/gwonminsu/.local/share/info' '/Users/gwonminsu/.local/share/info/sframe-spec.info'
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  install-recursive
+Making install in po
+make[4]: Nothing to be done for `install'.
+make[5]: Nothing to be done for `install-exec-am'.
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/info'
+ /opt/homebrew/bin/ginstall -c -m 644 ./doc/bfd.info '/Users/gwonminsu/.local/share/info'
+ install-info --info-dir='/Users/gwonminsu/.local/share/info' '/Users/gwonminsu/.local/share/info/bfd.info'
+Making install in .
+make[4]: Nothing to be done for `install-exec-am'.
+Making install in po
+make[3]: Nothing to be done for `install'.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  install-recursive
+Making install in po
+make[4]: Nothing to be done for `install'.
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/bin'
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c size '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-size'
+libtool: install: /opt/homebrew/bin/ginstall -c size /Users/gwonminsu/.local/bin/./m68k-unknown-elf-size
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c objdump '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-objdump'
+libtool: install: /opt/homebrew/bin/ginstall -c objdump /Users/gwonminsu/.local/bin/./m68k-unknown-elf-objdump
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c ar '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-ar'
+libtool: install: /opt/homebrew/bin/ginstall -c ar /Users/gwonminsu/.local/bin/./m68k-unknown-elf-ar
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c strings '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-strings'
+libtool: install: /opt/homebrew/bin/ginstall -c strings /Users/gwonminsu/.local/bin/./m68k-unknown-elf-strings
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c ranlib '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-ranlib'
+libtool: install: /opt/homebrew/bin/ginstall -c ranlib /Users/gwonminsu/.local/bin/./m68k-unknown-elf-ranlib
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c objcopy '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-objcopy'
+libtool: install: /opt/homebrew/bin/ginstall -c objcopy /Users/gwonminsu/.local/bin/./m68k-unknown-elf-objcopy
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c addr2line '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-addr2line'
+libtool: install: /opt/homebrew/bin/ginstall -c addr2line /Users/gwonminsu/.local/bin/./m68k-unknown-elf-addr2line
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c readelf '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-readelf'
+libtool: install: /opt/homebrew/bin/ginstall -c readelf /Users/gwonminsu/.local/bin/./m68k-unknown-elf-readelf
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c elfedit '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-elfedit'
+libtool: install: /opt/homebrew/bin/ginstall -c elfedit /Users/gwonminsu/.local/bin/./m68k-unknown-elf-elfedit
+  /bin/sh ./libtool  --mode=install /opt/homebrew/bin/ginstall -c nm-new /Users/gwonminsu/.local/bin/m68k-unknown-elf-nm
+libtool: install: /opt/homebrew/bin/ginstall -c nm-new /Users/gwonminsu/.local/bin/m68k-unknown-elf-nm
+  /bin/sh ./libtool  --mode=install /opt/homebrew/bin/ginstall -c strip-new /Users/gwonminsu/.local/bin/m68k-unknown-elf-strip
+libtool: install: /opt/homebrew/bin/ginstall -c strip-new /Users/gwonminsu/.local/bin/m68k-unknown-elf-strip
+  /bin/sh ./libtool  --mode=install /opt/homebrew/bin/ginstall -c cxxfilt /Users/gwonminsu/.local/bin/m68k-unknown-elf-c++filt
+libtool: install: /opt/homebrew/bin/ginstall -c cxxfilt /Users/gwonminsu/.local/bin/m68k-unknown-elf-c++filt
+/bin/sh ../../../binutils-gdb/binutils/../mkinstalldirs /Users/gwonminsu/.local/m68k-unknown-elf/bin
+mkdir /Users/gwonminsu/.local/m68k-unknown-elf
+mkdir /Users/gwonminsu/.local/m68k-unknown-elf/bin
+for i in nm-new strip-new ar ranlib dlltool objdump objcopy readelf; do \
+	  if [ -f $i ]; then \
+	    j=`echo $i | sed -e 's/-new//'`; \
+	    k=`echo $j | sed 's&^&m68k-unknown-elf-&'`; \
+	    if [ "/Users/gwonminsu/.local/bin/$k" != "/Users/gwonminsu/.local/m68k-unknown-elf/bin/$j" ]; then \
+	      rm -f /Users/gwonminsu/.local/m68k-unknown-elf/bin/$j; \
+	      ln /Users/gwonminsu/.local/bin/$k /Users/gwonminsu/.local/m68k-unknown-elf/bin/$j >/dev/null 2>/dev/null \
+		||  /bin/sh ./libtool --mode=install /opt/homebrew/bin/ginstall -c $i /Users/gwonminsu/.local/m68k-unknown-elf/bin/$j; \
+	    fi; \
+	  else true; \
+	  fi; \
+	done
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/info'
+ /opt/homebrew/bin/ginstall -c -m 644 ./doc/binutils.info '/Users/gwonminsu/.local/share/info'
+ install-info --info-dir='/Users/gwonminsu/.local/share/info' '/Users/gwonminsu/.local/share/info/binutils.info'
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/man/man1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/addr2line.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-addr2line.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/ar.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-ar.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/dlltool.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-dlltool.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/nm.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-nm.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/objcopy.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-objcopy.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/objdump.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-objdump.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/ranlib.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-ranlib.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/readelf.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-readelf.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/size.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-size.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/strings.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-strings.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/strip.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-strip.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/elfedit.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-elfedit.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/windres.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-windres.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/windmc.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-windmc.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/c++filt.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-c++filt.1'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+Making install in po
+make[3]: Nothing to be done for `install'.
+  GEN      doc/asconfig.texi
+/bin/sh ../../../binutils-gdb/gas/../mkinstalldirs /Users/gwonminsu/.local/bin
+  /bin/sh ./libtool  --mode=install /opt/homebrew/bin/ginstall -c as-new /Users/gwonminsu/.local/bin/m68k-unknown-elf-as
+libtool: install: /opt/homebrew/bin/ginstall -c as-new /Users/gwonminsu/.local/bin/m68k-unknown-elf-as
+/bin/sh ../../../binutils-gdb/gas/../mkinstalldirs /Users/gwonminsu/.local/m68k-unknown-elf/bin
+n=`echo as | sed 's&^&m68k-unknown-elf-&'`; \
+	if [ "/Users/gwonminsu/.local/bin/$n" != "/Users/gwonminsu/.local/m68k-unknown-elf/bin/as" ]; then \
+	  rm -f /Users/gwonminsu/.local/m68k-unknown-elf/bin/as; \
+	  ln /Users/gwonminsu/.local/bin/$n /Users/gwonminsu/.local/m68k-unknown-elf/bin/as >/dev/null 2>/dev/null \
+	    ||  /bin/sh ./libtool --mode=install /opt/homebrew/bin/ginstall -c as-new /Users/gwonminsu/.local/m68k-unknown-elf/bin/as; \
+	else \
+	  true ; \
+	fi
+  GEN      doc/asconfig.texi
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/info'
+ /opt/homebrew/bin/ginstall -c -m 644 ./doc/as.info '/Users/gwonminsu/.local/share/info'
+ install-info --info-dir='/Users/gwonminsu/.local/share/info' '/Users/gwonminsu/.local/share/info/as.info'
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/man/man1'
+ /opt/homebrew/bin/ginstall -c -m 644 'doc/as.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-as.1'
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  install-recursive
+Making install in po
+make[4]: Nothing to be done for `install'.
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/bin'
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c gprof '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-gprof'
+libtool: install: /opt/homebrew/bin/ginstall -c gprof /Users/gwonminsu/.local/bin/./m68k-unknown-elf-gprof
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/info'
+ /opt/homebrew/bin/ginstall -c -m 644 ./gprof.info '/Users/gwonminsu/.local/share/info'
+ install-info --info-dir='/Users/gwonminsu/.local/share/info' '/Users/gwonminsu/.local/share/info/gprof.info'
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/man/man1'
+ /opt/homebrew/bin/ginstall -c -m 644 'gprof.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-gprof.1'
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/info'
+ /opt/homebrew/bin/ginstall -c -m 644 ./doc/ctf-spec.info '/Users/gwonminsu/.local/share/info'
+ install-info --info-dir='/Users/gwonminsu/.local/share/info' '/Users/gwonminsu/.local/share/info/ctf-spec.info'
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  install-recursive
+Making install in po
+make[4]: Nothing to be done for `install'.
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/bin'
+  /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c ld-new '/Users/gwonminsu/.local/bin/./m68k-unknown-elf-ld.bfd'
+libtool: install: /opt/homebrew/bin/ginstall -c ld-new /Users/gwonminsu/.local/bin/./m68k-unknown-elf-ld.bfd
+/bin/sh ../../../binutils-gdb/ld/../mkinstalldirs /Users/gwonminsu/.local/m68k-unknown-elf/bin
+n=`echo ld.bfd | sed 's/^ld-new$/ld.bfd/;s&^&m68k-unknown-elf-&'`; \
+	if test "/Users/gwonminsu/.local/bin" != "/Users/gwonminsu/.local/m68k-unknown-elf/bin"; then \
+	  rm -f /Users/gwonminsu/.local/m68k-unknown-elf/bin/ld.bfd; \
+	  ln /Users/gwonminsu/.local/bin/$n /Users/gwonminsu/.local/m68k-unknown-elf/bin/ld.bfd >/dev/null 2>/dev/null \
+	  ||  /bin/sh ./libtool --mode=install /opt/homebrew/bin/ginstall -c ld-new /Users/gwonminsu/.local/m68k-unknown-elf/bin/ld.bfd; \
+	fi; \
+	if test "xyes" = "xyes"; then \
+	  ld=`echo ld | sed 's/^ld-new$/ld.bfd/;s&^&m68k-unknown-elf-&'`; \
+	  rm -f /Users/gwonminsu/.local/bin/$ld; \
+	  ln /Users/gwonminsu/.local/bin/$n /Users/gwonminsu/.local/bin/$ld >/dev/null 2>/dev/null \
+	  ||  /bin/sh ./libtool --mode=install /opt/homebrew/bin/ginstall -c ld-new /Users/gwonminsu/.local/bin/$ld; \
+	  if test "/Users/gwonminsu/.local/bin" != "/Users/gwonminsu/.local/m68k-unknown-elf/bin"; then \
+	    rm -f /Users/gwonminsu/.local/m68k-unknown-elf/bin/ld; \
+	    ln /Users/gwonminsu/.local/bin/$n /Users/gwonminsu/.local/m68k-unknown-elf/bin/ld >/dev/null 2>/dev/null \
+	    ||  /bin/sh ./libtool --mode=install /opt/homebrew/bin/ginstall -c ld-new /Users/gwonminsu/.local/m68k-unknown-elf/bin/ld; \
+	  fi; \
+	fi
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/lib/bfd-plugins'
+ /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c   libdep.la '/Users/gwonminsu/.local/lib/bfd-plugins'
+libtool: install: /opt/homebrew/bin/ginstall -c .libs/libdep.so /Users/gwonminsu/.local/lib/bfd-plugins/libdep.so
+libtool: install: /opt/homebrew/bin/ginstall -c .libs/libdep.lai /Users/gwonminsu/.local/lib/bfd-plugins/libdep.la
+/bin/sh ../../../binutils-gdb/ld/../mkinstalldirs /Users/gwonminsu/.local/m68k-unknown-elf/lib/ldscripts
+mkdir /Users/gwonminsu/.local/m68k-unknown-elf/lib
+mkdir /Users/gwonminsu/.local/m68k-unknown-elf/lib/ldscripts
+for f in ldscripts/* ; do \
+	  case $f in \
+	    stamp) ;; \
+	    *) /opt/homebrew/bin/ginstall -c -m 644 $f /Users/gwonminsu/.local/m68k-unknown-elf/lib/$f ; \
+	  esac \
+	done
+rm -f /Users/gwonminsu/.local/lib/bfd-plugins/libdep.la
+rm -f /Users/gwonminsu/.local/lib/bfd-plugins/libdep.dll.a
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/info'
+ /opt/homebrew/bin/ginstall -c -m 644 ./ld.info ./ldint.info '/Users/gwonminsu/.local/share/info'
+ install-info --info-dir='/Users/gwonminsu/.local/share/info' '/Users/gwonminsu/.local/share/info/ld.info'
+ install-info --info-dir='/Users/gwonminsu/.local/share/info' '/Users/gwonminsu/.local/share/info/ldint.info'
+ /opt/homebrew/bin/gmkdir -p '/Users/gwonminsu/.local/share/man/man1'
+ /opt/homebrew/bin/ginstall -c -m 644 'ld.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-ld.1'
+true  DO=all multi-do # /Applications/Xcode.app/Contents/Developer/usr/bin/make
+true  DO=install multi-do # /Applications/Xcode.app/Contents/Developer/usr/bin/make
+make[3]: Nothing to be done for `install-data-am'.
+make[2]: Nothing to be done for `install'.
+make[3]: Nothing to be done for `all'.
+if test -n ""; then \
+		/bin/sh ../../../binutils-gdb/libiberty/../mkinstalldirs /Users/gwonminsu/.local/lib/`gcc -g -O2     -print-multi-os-directory`; \
+		/opt/homebrew/bin/ginstall -c -m 644 ./libiberty.a /Users/gwonminsu/.local/lib/`gcc -g -O2     -print-multi-os-directory`/./libiberty.an; \
+		( cd /Users/gwonminsu/.local/lib/`gcc -g -O2     -print-multi-os-directory` ; chmod 644 ./libiberty.an ;ranlib  ./libiberty.an ); \
+		mv -f /Users/gwonminsu/.local/lib/`gcc -g -O2     -print-multi-os-directory`/./libiberty.an /Users/gwonminsu/.local/lib/`gcc -g -O2     -print-multi-os-directory`/./libiberty.a; \
+		case "" in \
+		  /*)    thd=;; \
+		  *)     thd=/Users/gwonminsu/.local/include/;; \
+		esac; \
+		/bin/sh ../../../binutils-gdb/libiberty/../mkinstalldirs ${thd}; \
+		for h in ../../../binutils-gdb/libiberty/../include/ansidecl.h ../../../binutils-gdb/libiberty/../include/demangle.h ../../../binutils-gdb/libiberty/../include/dyn-string.h ../../../binutils-gdb/libiberty/../include/fibheap.h ../../../binutils-gdb/libiberty/../include/floatformat.h ../../../binutils-gdb/libiberty/../include/hashtab.h ../../../binutils-gdb/libiberty/../include/libiberty.h ../../../binutils-gdb/libiberty/../include/objalloc.h ../../../binutils-gdb/libiberty/../include/partition.h ../../../binutils-gdb/libiberty/../include/safe-ctype.h ../../../binutils-gdb/libiberty/../include/sort.h ../../../binutils-gdb/libiberty/../include/splay-tree.h ../../../binutils-gdb/libiberty/../include/timeval-utils.h; do \
+		  /opt/homebrew/bin/ginstall -c -m 644 $h ${thd}; \
+		done; \
+	fi
+make[3]: Nothing to be done for `install'.
+Making install in readline
+make[3]: Nothing to be done for `install'.
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  install-am
+for dir in "" "" "" "" "" "" "" "/Users/gwonminsu/.local/include/sim"; do \
+	  test -z "$dir" || /opt/homebrew/bin/gmkdir -p "$dir"; \
+	done
+run=`echo run | sed 's&^&m68k-unknown-elf-&'`; \
+	for d in ; do \
+		n="$run"; \
+		[ "" = "$d" ] || n="$n-$d"; \
+		/bin/sh ./libtool --mode=install \
+			/opt/homebrew/bin/ginstall -c $d/run /Users/gwonminsu/.local/bin/$n || exit 1; \
+	done
+lib=`echo sim | sed 's&^&m68k-unknown-elf-&'`; \
+	for d in ; do \
+		n="$lib"; \
+		[ "" = "$d" ] || n="$n-$d"; \
+		n="lib$n.a"; \
+		/opt/homebrew/bin/ginstall -c -m 644 $d/libsim.a /Users/gwonminsu/.local/lib/$n || exit 1; \
+	done
+Making install in import
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  install-recursive
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Nothing to be done for `all'.
+make[4]: Nothing to be done for `all'.
+/bin/sh ../../../binutils-gdb/gdb/../mkinstalldirs /Users/gwonminsu/.local/share/gdb/python/gdb
+mkdir /Users/gwonminsu/.local/share/gdb
+mkdir /Users/gwonminsu/.local/share/gdb/python
+mkdir /Users/gwonminsu/.local/share/gdb/python/gdb
+/bin/sh ../../../binutils-gdb/gdb/../mkinstalldirs /Users/gwonminsu/.local/share/gdb/guile/gdb
+mkdir /Users/gwonminsu/.local/share/gdb/guile
+mkdir /Users/gwonminsu/.local/share/gdb/guile/gdb
+transformed_name=`t='s&^&m68k-unknown-elf-&'; \
+			  echo gdb | sed -e "$t"` ; \
+		if test "x$transformed_name" = x; then \
+		  transformed_name=gdb ; \
+		else \
+		  true ; \
+		fi ; \
+		/bin/sh ../../../binutils-gdb/gdb/../mkinstalldirs /Users/gwonminsu/.local/bin ; \
+		 /bin/sh ./libtool --mode=install /opt/homebrew/bin/ginstall -c \
+			gdb \
+			/Users/gwonminsu/.local/bin/$transformed_name ; \
+		/bin/sh ../../../binutils-gdb/gdb/../mkinstalldirs /Users/gwonminsu/.local/include/gdb ; \
+		/opt/homebrew/bin/ginstall -c -m 644 jit-reader.h /Users/gwonminsu/.local/include/gdb/jit-reader.h
+libtool: install: /opt/homebrew/bin/ginstall -c gdb /Users/gwonminsu/.local/bin/m68k-unknown-elf-gdb
+mkdir /Users/gwonminsu/.local/include/gdb
+if test "x" != x; \
+	then \
+	  transformed_name=`t='s&^&m68k-unknown-elf-&'; \
+			    echo gcore | sed -e "$t"` ; \
+		  if test "x$transformed_name" = x; then \
+		    transformed_name=gcore ; \
+		  else \
+		    true ; \
+		  fi ; \
+		  /bin/sh ../../../binutils-gdb/gdb/../mkinstalldirs /Users/gwonminsu/.local/bin ; \
+		  /opt/homebrew/bin/ginstall -c gcore \
+			  /Users/gwonminsu/.local/bin/$transformed_name; \
+	fi
+transformed_name=`t='s&^&m68k-unknown-elf-&'; \
+			  echo gdb-add-index | sed -e "$t"` ; \
+	if test "x$transformed_name" = x; then \
+	  transformed_name=gdb-add-index ; \
+	else \
+	  true ; \
+	fi ; \
+	/opt/homebrew/bin/ginstall -c ../../../binutils-gdb/gdb/contrib/gdb-add-index.sh \
+		/Users/gwonminsu/.local/bin/$transformed_name
+/bin/sh ../../../../binutils-gdb/gdb/doc/../../mkinstalldirs /Users/gwonminsu/.local/share/info
+ /opt/homebrew/bin/ginstall -c -m 644 ./gdb.info /Users/gwonminsu/.local/share/info/gdb.info
+ /opt/homebrew/bin/ginstall -c -m 644 ./stabs.info /Users/gwonminsu/.local/share/info/stabs.info
+ /opt/homebrew/bin/ginstall -c -m 644 ./annotate.info /Users/gwonminsu/.local/share/info/annotate.info
+ install-info --info-dir=/Users/gwonminsu/.local/share/info /Users/gwonminsu/.local/share/info/gdb.info
+ install-info --info-dir=/Users/gwonminsu/.local/share/info /Users/gwonminsu/.local/share/info/stabs.info
+ install-info --info-dir=/Users/gwonminsu/.local/share/info /Users/gwonminsu/.local/share/info/annotate.info
+touch gdb.1
+perl ../../../../binutils-gdb/gdb/doc/../../etc/texi2pod.pl  -DHAVE_MAKEINFO_CLICK -Dman -Dgdb < ../../../../binutils-gdb/gdb/doc/gdb.texinfo > gdb.pod
+(pod2man --center="GNU Development Tools" --release="gdb-`sed q version.subst`" --section=1 gdb.pod | sed -e '/^.if n .na/d' > gdb.1.T$$ && \
+		mv -f gdb.1.T$$ gdb.1) || (rm -f gdb.1.T$$ && exit 1)
+rm -f gdb.pod
+touch gdbserver.1
+perl ../../../../binutils-gdb/gdb/doc/../../etc/texi2pod.pl  -DHAVE_MAKEINFO_CLICK -Dman -Dgdbserver < ../../../../binutils-gdb/gdb/doc/gdb.texinfo > gdbserver.pod
+(pod2man --center="GNU Development Tools" --release="gdb-`sed q version.subst`" --section=1 gdbserver.pod | sed -e '/^.if n .na/d' > gdbserver.1.T$$ && \
+		mv -f gdbserver.1.T$$ gdbserver.1) || (rm -f gdbserver.1.T$$ && exit 1)
+rm -f gdbserver.pod
+touch gcore.1
+perl ../../../../binutils-gdb/gdb/doc/../../etc/texi2pod.pl  -DHAVE_MAKEINFO_CLICK -Dman -Dgcore < ../../../../binutils-gdb/gdb/doc/gdb.texinfo > gcore.pod
+(pod2man --center="GNU Development Tools" --release="gdb-`sed q version.subst`" --section=1 gcore.pod | sed -e '/^.if n .na/d' > gcore.1.T$$ && \
+		mv -f gcore.1.T$$ gcore.1) || (rm -f gcore.1.T$$ && exit 1)
+rm -f gcore.pod
+touch gdb-add-index.1
+perl ../../../../binutils-gdb/gdb/doc/../../etc/texi2pod.pl  -DHAVE_MAKEINFO_CLICK -Dman -Dgdb-add-index < ../../../../binutils-gdb/gdb/doc/gdb.texinfo > gdb-add-index.pod
+(pod2man --center="GNU Development Tools" --release="gdb-`sed q version.subst`" --section=1 gdb-add-index.pod | sed -e '/^.if n .na/d' > gdb-add-index.1.T$$ && \
+		mv -f gdb-add-index.1.T$$ gdb-add-index.1) || (rm -f gdb-add-index.1.T$$ && exit 1)
+rm -f gdb-add-index.pod
+test -z "/Users/gwonminsu/.local/share/man/man1" || /bin/sh ../../../../binutils-gdb/gdb/doc/../../mkinstalldirs "/Users/gwonminsu/.local/share/man/man1"
+ /opt/homebrew/bin/ginstall -c -m 644 'gdb.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-gdb.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'gdbserver.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-gdbserver.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'gdb-add-index.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-gdb-add-index.1'
+touch gdbinit.5
+perl ../../../../binutils-gdb/gdb/doc/../../etc/texi2pod.pl  -DHAVE_MAKEINFO_CLICK -Dman -Dgdbinit < ../../../../binutils-gdb/gdb/doc/gdb.texinfo > gdbinit.pod
+(pod2man --center="GNU Development Tools" --release="gdb-`sed q version.subst`" --section=5 gdbinit.pod | sed -e '/^.if n .na/d' > gdbinit.5.T$$ && \
+		mv -f gdbinit.5.T$$ gdbinit.5) || (rm -f gdbinit.5.T$$ && exit 1)
+rm -f gdbinit.pod
+test -z "/Users/gwonminsu/.local/share/man/man5" || /bin/sh ../../../../binutils-gdb/gdb/doc/../../mkinstalldirs "/Users/gwonminsu/.local/share/man/man5"
+mkdir /Users/gwonminsu/.local/share/man/man5
+ /opt/homebrew/bin/ginstall -c -m 644 'gdbinit.5' '/Users/gwonminsu/.local/share/man/man5/m68k-unknown-elf-gdbinit.5'
+make[5]: Nothing to be done for `install'.
+/bin/sh ../../../../binutils-gdb/gdb/data-directory/../../mkinstalldirs /Users/gwonminsu/.local/share/gdb/syscalls
+mkdir /Users/gwonminsu/.local/share/gdb/syscalls
+files='gdb-syscalls.dtd freebsd.xml netbsd.xml aarch64-linux.xml amd64-linux.xml arm-linux.xml i386-linux.xml mips-n32-linux.xml mips-n64-linux.xml mips-o32-linux.xml ppc-linux.xml ppc64-linux.xml s390-linux.xml s390x-linux.xml sparc-linux.xml sparc64-linux.xml' ; \
+	for file in $files; do \
+	  f=../../../../binutils-gdb/gdb/data-directory/../syscalls/$file ; \
+	  if test -f $f ; then \
+	    /opt/homebrew/bin/ginstall -c -m 644 $f /Users/gwonminsu/.local/share/gdb/syscalls ; \
+	  fi ; \
+	done
+files='gdb/__init__.py gdb/disassembler.py gdb/FrameDecorator.py gdb/FrameIterator.py gdb/frames.py gdb/missing_debug.py gdb/printing.py gdb/prompt.py gdb/styling.py gdb/types.py gdb/unwinder.py gdb/xmethod.py gdb/command/__init__.py gdb/command/explore.py gdb/command/frame_filters.py gdb/command/missing_debug.py gdb/command/pretty_printers.py gdb/command/prompt.py gdb/command/type_printers.py gdb/command/unwinders.py gdb/command/xmethods.py gdb/dap/breakpoint.py gdb/dap/bt.py gdb/dap/disassemble.py gdb/dap/evaluate.py gdb/dap/events.py gdb/dap/frames.py gdb/dap/__init__.py gdb/dap/io.py gdb/dap/launch.py gdb/dap/locations.py gdb/dap/memory.py gdb/dap/modules.py gdb/dap/next.py gdb/dap/pause.py gdb/dap/scopes.py gdb/dap/server.py gdb/dap/sources.py gdb/dap/startup.py gdb/dap/state.py gdb/dap/threads.py gdb/dap/typecheck.py gdb/dap/varref.py gdb/function/__init__.py gdb/function/as_string.py gdb/function/caller_is.py gdb/function/strfns.py gdb/printer/__init__.py gdb/printer/bound_registers.py' ; \
+	if test "x$files" != x ; then \
+	  for file in $files ; do \
+	    dir=`echo "$file" | sed 's,/[^/]*$,,'` ; \
+	    /bin/sh ../../../../binutils-gdb/gdb/data-directory/../../mkinstalldirs /Users/gwonminsu/.local/share/gdb/python/$dir ; \
+	    /opt/homebrew/bin/ginstall -c -m 644 ./python/$file /Users/gwonminsu/.local/share/gdb/python/$dir ; \
+	  done ; \
+	fi
+mkdir /Users/gwonminsu/.local/share/gdb/python/gdb/command
+mkdir /Users/gwonminsu/.local/share/gdb/python/gdb/dap
+mkdir /Users/gwonminsu/.local/share/gdb/python/gdb/function
+mkdir /Users/gwonminsu/.local/share/gdb/python/gdb/printer
+files='./gdb.scm gdb/boot.scm gdb/experimental.scm gdb/init.scm gdb/iterator.scm gdb/printing.scm gdb/support.scm gdb/types.scm ./gdb.go gdb/experimental.go gdb/iterator.go gdb/printing.go gdb/support.go gdb/types.go' ; \
+	if test "x$files" != x ; then \
+	  for file in $files ; do \
+	    dir=`echo "$file" | sed 's,/[^/]*$,,'` ; \
+	    /bin/sh ../../../../binutils-gdb/gdb/data-directory/../../mkinstalldirs /Users/gwonminsu/.local/share/gdb/guile/$dir ; \
+	    /opt/homebrew/bin/ginstall -c -m 644 ./guile/$file /Users/gwonminsu/.local/share/gdb/guile/$dir ; \
+	  done ; \
+	fi
+/bin/sh ../../../../binutils-gdb/gdb/data-directory/../../mkinstalldirs /Users/gwonminsu/.local/share/gdb/system-gdbinit
+mkdir /Users/gwonminsu/.local/share/gdb/system-gdbinit
+files='elinos.py wrs-linux.py' ; \
+	for file in $files; do \
+	  f=../../../../binutils-gdb/gdb/data-directory/../system-gdbinit/$file ; \
+	  if test -f $f ; then \
+	    /opt/homebrew/bin/ginstall -c -m 644 $f /Users/gwonminsu/.local/share/gdb/system-gdbinit ; \
+	  fi ; \
+	done
+make[1]: Nothing to be done for `install-target'.
+/bin/sh ../../binutils-gdb/mkinstalldirs /Users/gwonminsu/.local /Users/gwonminsu/.local
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all'.
+/bin/sh ../../../binutils-gdb/gdb/../mkinstalldirs /Users/gwonminsu/.local/share/gdb/python/gdb
+/bin/sh ../../../binutils-gdb/gdb/../mkinstalldirs /Users/gwonminsu/.local/share/gdb/guile/gdb
+transformed_name=`t='s&^&m68k-unknown-elf-&'; \
+			  echo gdb | sed -e "$t"` ; \
+		if test "x$transformed_name" = x; then \
+		  transformed_name=gdb ; \
+		else \
+		  true ; \
+		fi ; \
+		/bin/sh ../../../binutils-gdb/gdb/../mkinstalldirs /Users/gwonminsu/.local/bin ; \
+		 /bin/sh ./libtool --mode=install /opt/homebrew/bin/ginstall -c \
+			gdb \
+			/Users/gwonminsu/.local/bin/$transformed_name ; \
+		/bin/sh ../../../binutils-gdb/gdb/../mkinstalldirs /Users/gwonminsu/.local/include/gdb ; \
+		/opt/homebrew/bin/ginstall -c -m 644 jit-reader.h /Users/gwonminsu/.local/include/gdb/jit-reader.h
+libtool: install: /opt/homebrew/bin/ginstall -c gdb /Users/gwonminsu/.local/bin/m68k-unknown-elf-gdb
+if test "x" != x; \
+	then \
+	  transformed_name=`t='s&^&m68k-unknown-elf-&'; \
+			    echo gcore | sed -e "$t"` ; \
+		  if test "x$transformed_name" = x; then \
+		    transformed_name=gcore ; \
+		  else \
+		    true ; \
+		  fi ; \
+		  /bin/sh ../../../binutils-gdb/gdb/../mkinstalldirs /Users/gwonminsu/.local/bin ; \
+		  /opt/homebrew/bin/ginstall -c gcore \
+			  /Users/gwonminsu/.local/bin/$transformed_name; \
+	fi
+transformed_name=`t='s&^&m68k-unknown-elf-&'; \
+			  echo gdb-add-index | sed -e "$t"` ; \
+	if test "x$transformed_name" = x; then \
+	  transformed_name=gdb-add-index ; \
+	else \
+	  true ; \
+	fi ; \
+	/opt/homebrew/bin/ginstall -c ../../../binutils-gdb/gdb/contrib/gdb-add-index.sh \
+		/Users/gwonminsu/.local/bin/$transformed_name
+/bin/sh ../../../../binutils-gdb/gdb/doc/../../mkinstalldirs /Users/gwonminsu/.local/share/info
+ /opt/homebrew/bin/ginstall -c -m 644 ./gdb.info /Users/gwonminsu/.local/share/info/gdb.info
+ /opt/homebrew/bin/ginstall -c -m 644 ./stabs.info /Users/gwonminsu/.local/share/info/stabs.info
+ /opt/homebrew/bin/ginstall -c -m 644 ./annotate.info /Users/gwonminsu/.local/share/info/annotate.info
+ install-info --info-dir=/Users/gwonminsu/.local/share/info /Users/gwonminsu/.local/share/info/gdb.info
+ install-info --info-dir=/Users/gwonminsu/.local/share/info /Users/gwonminsu/.local/share/info/stabs.info
+ install-info --info-dir=/Users/gwonminsu/.local/share/info /Users/gwonminsu/.local/share/info/annotate.info
+test -z "/Users/gwonminsu/.local/share/man/man1" || /bin/sh ../../../../binutils-gdb/gdb/doc/../../mkinstalldirs "/Users/gwonminsu/.local/share/man/man1"
+ /opt/homebrew/bin/ginstall -c -m 644 'gdb.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-gdb.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'gdbserver.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-gdbserver.1'
+ /opt/homebrew/bin/ginstall -c -m 644 'gdb-add-index.1' '/Users/gwonminsu/.local/share/man/man1/m68k-unknown-elf-gdb-add-index.1'
+test -z "/Users/gwonminsu/.local/share/man/man5" || /bin/sh ../../../../binutils-gdb/gdb/doc/../../mkinstalldirs "/Users/gwonminsu/.local/share/man/man5"
+ /opt/homebrew/bin/ginstall -c -m 644 'gdbinit.5' '/Users/gwonminsu/.local/share/man/man5/m68k-unknown-elf-gdbinit.5'
+make[4]: Nothing to be done for `install'.
+/bin/sh ../../../../binutils-gdb/gdb/data-directory/../../mkinstalldirs /Users/gwonminsu/.local/share/gdb/syscalls
+files='gdb-syscalls.dtd freebsd.xml netbsd.xml aarch64-linux.xml amd64-linux.xml arm-linux.xml i386-linux.xml mips-n32-linux.xml mips-n64-linux.xml mips-o32-linux.xml ppc-linux.xml ppc64-linux.xml s390-linux.xml s390x-linux.xml sparc-linux.xml sparc64-linux.xml' ; \
+	for file in $files; do \
+	  f=../../../../binutils-gdb/gdb/data-directory/../syscalls/$file ; \
+	  if test -f $f ; then \
+	    /opt/homebrew/bin/ginstall -c -m 644 $f /Users/gwonminsu/.local/share/gdb/syscalls ; \
+	  fi ; \
+	done
+files='gdb/__init__.py gdb/disassembler.py gdb/FrameDecorator.py gdb/FrameIterator.py gdb/frames.py gdb/missing_debug.py gdb/printing.py gdb/prompt.py gdb/styling.py gdb/types.py gdb/unwinder.py gdb/xmethod.py gdb/command/__init__.py gdb/command/explore.py gdb/command/frame_filters.py gdb/command/missing_debug.py gdb/command/pretty_printers.py gdb/command/prompt.py gdb/command/type_printers.py gdb/command/unwinders.py gdb/command/xmethods.py gdb/dap/breakpoint.py gdb/dap/bt.py gdb/dap/disassemble.py gdb/dap/evaluate.py gdb/dap/events.py gdb/dap/frames.py gdb/dap/__init__.py gdb/dap/io.py gdb/dap/launch.py gdb/dap/locations.py gdb/dap/memory.py gdb/dap/modules.py gdb/dap/next.py gdb/dap/pause.py gdb/dap/scopes.py gdb/dap/server.py gdb/dap/sources.py gdb/dap/startup.py gdb/dap/state.py gdb/dap/threads.py gdb/dap/typecheck.py gdb/dap/varref.py gdb/function/__init__.py gdb/function/as_string.py gdb/function/caller_is.py gdb/function/strfns.py gdb/printer/__init__.py gdb/printer/bound_registers.py' ; \
+	if test "x$files" != x ; then \
+	  for file in $files ; do \
+	    dir=`echo "$file" | sed 's,/[^/]*$,,'` ; \
+	    /bin/sh ../../../../binutils-gdb/gdb/data-directory/../../mkinstalldirs /Users/gwonminsu/.local/share/gdb/python/$dir ; \
+	    /opt/homebrew/bin/ginstall -c -m 644 ./python/$file /Users/gwonminsu/.local/share/gdb/python/$dir ; \
+	  done ; \
+	fi
+files='./gdb.scm gdb/boot.scm gdb/experimental.scm gdb/init.scm gdb/iterator.scm gdb/printing.scm gdb/support.scm gdb/types.scm ./gdb.go gdb/experimental.go gdb/iterator.go gdb/printing.go gdb/support.go gdb/types.go' ; \
+	if test "x$files" != x ; then \
+	  for file in $files ; do \
+	    dir=`echo "$file" | sed 's,/[^/]*$,,'` ; \
+	    /bin/sh ../../../../binutils-gdb/gdb/data-directory/../../mkinstalldirs /Users/gwonminsu/.local/share/gdb/guile/$dir ; \
+	    /opt/homebrew/bin/ginstall -c -m 644 ./guile/$file /Users/gwonminsu/.local/share/gdb/guile/$dir ; \
+	  done ; \
+	fi
+/bin/sh ../../../../binutils-gdb/gdb/data-directory/../../mkinstalldirs /Users/gwonminsu/.local/share/gdb/system-gdbinit
+files='elinos.py wrs-linux.py' ; \
+	for file in $files; do \
+	  f=../../../../binutils-gdb/gdb/data-directory/../system-gdbinit/$file ; \
+	  if test -f $f ; then \
+	    /opt/homebrew/bin/ginstall -c -m 644 $f /Users/gwonminsu/.local/share/gdb/system-gdbinit ; \
+	  fi ; \
+	done
+Running script /Users/gwonminsu/Documents/LocalProjects/ehbc-toolchain-builder/scripts/gdb-compile.sh...

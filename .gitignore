@@ -1,5 +1,3 @@
 build/*
-!build/*.sh
-downloads
 .vscode
-toolchain.cmake
+toolchain-*.cmake

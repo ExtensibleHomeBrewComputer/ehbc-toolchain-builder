@@ -1,0 +1,23 @@
+#!/bin/bash
+
+MAKE_STEPS=(
+    "global                         gcc-dlprereq"
+    "m68k-unknown-elf-gcc           configure"
+    "m68k-unknown-elf-gcc           compile"
+    "global                         gcc-instprereq"
+    "m68k-unknown-elf-gcc           install"
+    "m68k-unknown-elf-binutils      configure"
+    "m68k-unknown-elf-binutils      compile"
+    "m68k-unknown-elf-binutils      install"
+    "global                         m68k-unknown-elf-toolchain-install"
+#    "m68k-unknown-ehbcfw-mlibc      configure"
+#    "m68k-unknown-ehbcfw-mlibc      compile"
+#    "m68k-unknown-ehbcfw-mlibc      install"
+#    "m68k-unknown-ehbcfw-gcc        configure"
+#    "m68k-unknown-ehbcfw-gcc        compile"
+#    "m68k-unknown-ehbcfw-gcc        install"
+#    "m68k-unknown-ehbcfw-binutils   configure"
+#    "m68k-unknown-ehbcfw-binutils   compile"
+#    "m68k-unknown-ehbcfw-binutils   install"
+#    "global                         m68k-unknown-ehbcfw-toolchain-install"
+)

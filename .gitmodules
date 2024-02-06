@@ -4,3 +4,6 @@
 [submodule "ehbc-gcc"]
 	path = ehbc-gcc
 	url = https://github.com/ExtensibleHomeBrewComputer/ehbc-gcc
+[submodule "ehbc-binutils-gdb"]
+	path = ehbc-binutils-gdb
+	url = ./ehbc-binutils-gdb

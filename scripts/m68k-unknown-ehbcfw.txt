@@ -1,0 +1,11 @@
+[binaries]
+c = 'm68k-unknown-elf-gcc'
+cpp = 'm68k-unknown-elf-g++'
+ar = 'm68k-unknown-elf-ar'
+strip = 'm68k-unknown-elf-strip'
+
+[host_machine]
+system = 'ehbcfw'
+cpu_family = 'm68k'
+cpu = 'mc68030'
+endian = 'big'

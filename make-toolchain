@@ -6,12 +6,11 @@ MAKE_RESULTS=()
 
 ROOT_PATH=$(cd "$(dirname -- "$0")"; pwd)
 BUILD_PATH="$ROOT_PATH/build"
-TARBALL_PATH="$ROOT_PATH/downloads"
+SCRIPTS_PATH="$ROOT_PATH/scripts"
 
 mkdir -p "$BUILD_PATH"
-mkdir -p "$TARBALL_PATH"
 
-source "$ROOT_PATH/config.sh"
+source "$ROOT_PATH/steps"
 
 if [ -z "$PREFIX" ]; then
     export PREFIX="$HOME/.local"
@@ -30,57 +29,26 @@ make_sysroot_dirs() {
     mkdir -p "$path/usr/lib"
 }
 
-download_tarball() {
-    local source_name="$1"
-    local url="$2"
-
-    if [ -f "$TARBALL_PATH/$source_name.fetch" ]; then
-        MAKE_RESULTS+=("$source_name fetch: \033[1;34mSkipped\033[0m")
-    else
-        wget "$url" -O "$TARBALL_PATH/$source_name.fetch"
-        MAKE_RESULTS+=("$source_name fetch: \033[1;32mDone\033[0m")
-    fi
-
-    return 0
-}
-
-extract_source() {
-    local source_name="$1"
-
-    if [ ! -f "$TARBALL_PATH/$source_name.fetch" ]; then
-        echo -e "\033[1;31mError: File '$TARBALL_PATH/$source_name.fetch' does not exist\033[0m"
-        MAKE_RESULTS+=("$source_name extract: \033[1;31mError: File '$TARBALL_PATH/$source_name.fetch' does not exist\033[0m")
-        return 1
-    elif [ -d "$BUILD_PATH/$source_name" ]; then
-        MAKE_RESULTS+=("$source_name extract: \033[1;34mSkipped\033[0m")
-    else
-        mkdir -p "$BUILD_PATH/$source_name"
-        echo "Extracting $source_name..."
-        pv "$TARBALL_PATH/$source_name.fetch" | tar -zxf - --strip-components=1 -C "$BUILD_PATH/$source_name"
-        MAKE_RESULTS+=("$source_name extract: \033[1;32mDone\033[0m")
-    fi
-
-    return 0
-}
-
 run_command_script() {
     local command="$1"
     local source_name="$2"
 
-    cd "$BUILD_PATH/${source_name}"
-
-    if [ ! -d "$BUILD_PATH/$source_name" ]; then
-        echo -e "\033[1;31mError: Source directory '$BUILD_PATH/$source_name' does not exist\033[0m"
-        MAKE_RESULTS+=("$source_name configure: \033[1;31mError: Source directory '$BUILD_PATH/$source_name' does not exist\033[0m")
-        return 1
-    elif [ -f "$BUILD_PATH/.$source_name.${command}stamp" ]; then
-        MAKE_RESULTS+=("$source_name $command: \033[1;34mSkipped\033[0m")
-    elif [ -f "$BUILD_PATH/${source_name}-${command}.sh" ]; then
-        source "$BUILD_PATH/${source_name}-${command}.sh"
-        touch "$BUILD_PATH/.$source_name.${command}stamp"
-        MAKE_RESULTS+=("$source_name configure: \033[1;32mDone\033[0m")
+    if [ "$source_name" = "global" ]; then
+        cd "$ROOT_PATH"
     else
-        echo -e "\033[1;31mError: Shell script $BUILD_PATH/${source_name}-${command}.sh is not found.\033[0m"
+        mkdir -p "$BUILD_PATH/${source_name}"
+        cd "$BUILD_PATH/${source_name}"
+    fi
+
+    if [ -f "$BUILD_PATH/.$source_name.${command}stamp" ]; then
+        MAKE_RESULTS+=("$source_name $command: \033[1;34mSkipped\033[0m")
+    elif [ -f "$SCRIPTS_PATH/${source_name}-${command}.sh" ]; then
+        echo "Running script $SCRIPTS_PATH/${source_name}-${command}.sh..."
+        source "$SCRIPTS_PATH/${source_name}-${command}.sh"
+        touch "$BUILD_PATH/.$source_name.${command}stamp"
+        MAKE_RESULTS+=("$source_name $command: \033[1;32mDone\033[0m")
+    else
+        echo -e "\033[1;31mError: Shell script $SCRIPTS_PATH/${source_name}-${command}.sh is not found.\033[0m"
         return 1
     fi
 
@@ -91,20 +59,6 @@ show_results() {
     for result in "${MAKE_RESULTS[@]}"; do
         echo -e "$result"
     done
-}
-
-write_cmake_toolchain() {
-    cat > toolchain.cmake <<EOF
-set(CMAKE_SYSTEM_NAME Generic)
-set(CMAKE_SYSTEM_PROCESSOR m68k)
-
-set(CMAKE_C_COMPILER    $PREFIX/bin/m68k-unknown-elf-gcc)
-set(CMAKE_C_FLAGS       "-march=68030 -m68881")
-set(CMAKE_CXX_COMPILER  $PREFIX/bin/m68k-unknown-elf-g++)
-set(CMAKE_CXX_FLAGS     "-march=68030 -m68881")
-set(CMAKE_ASM_COMPILER  $PREFIX/bin/m68k-unknown-elf-as)
-set(CMAKE_ASM_FLAGS     "-march=68030 -m68881")
-EOF
 }
 
 make_sysroot_dirs "$PREFIX"
@@ -127,10 +81,3 @@ for step in "${MAKE_STEPS[@]}"; do
 done
 
 show_results
-write_cmake_toolchain
-
-if [ -d "$PREFIX/usr/share" ]; then
-    ginstall -D -v toolchain.cmake "$PREFIX/usr/share/cmake/toolchains/EHBCToolchain.cmake"
-else
-    ginstall -D -v toolchain.cmake "$PREFIX/share/cmake/toolchains/EHBCToolchain.cmake"
-fi

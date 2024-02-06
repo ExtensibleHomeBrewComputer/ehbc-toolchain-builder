@@ -2,14 +2,9 @@
 
 set -e
 
-./contrib/download_prerequisites
-
-mkdir -p build-m68k-elf
-cd build-m68k-elf
-
-../configure \
+../../ehbc-gcc/configure \
     --target=m68k-unknown-elf \
-    --enable-languages=c \
+    --enable-languages=c,c++ \
     --enable-obsolete \
     --enable-lto \
     --disable-threads \
